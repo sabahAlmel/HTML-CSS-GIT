@@ -7,3 +7,6 @@
 .country {
   border: 5px solid white;
 }
+.pages span:last-child {
+  padding: 0 10px;
+}

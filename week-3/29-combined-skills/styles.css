@@ -1,1 +1,37 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+@media (min-width: 992px) {
+  .hero h2.hero__title {
+    font-size: 40px;
+  }
+}
+.site-header nav.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+  }
+  .views .view-list__item {
+    margin: 0 10px;
+  }
+  .views .views__all {
+    margin-left: auto;
+  }
+}
+.site-content article {
+  max-width: 50em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article p {
+  line-height: 1.5;
+}
